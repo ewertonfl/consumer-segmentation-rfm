@@ -25,6 +25,7 @@ This project performs **customer segmentation** using a combination of:
 The objective is to build a **market-relevant**, **realistic**, and **fully reproducible** Data Science pipeline that demonstrates both **Data Engineering** and **Machine Learning** capabilities.
 
 The dataset used is **public** and does **not** contain sensitive information.
+**Dataset:** https://archive.ics.uci.edu/dataset/352/online+retail
 
 ---
 
