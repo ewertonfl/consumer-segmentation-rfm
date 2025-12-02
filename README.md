@@ -1,6 +1,5 @@
 # 📌 **README.md**
 
-```markdown
 # Consumer Profiling & Behavioral Clustering
 **Author:** Ewerton Florencio  
 **LinkedIn:** https://www.linkedin.com/in/ewertonfl/
@@ -63,6 +62,7 @@ CSV       Cleaned     RFM + Clusters
 
 
 
+```markdown
 consumer-segmentation-rfm/
 │
 ├── data/                      # Local only (ignored in Git)
