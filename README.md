@@ -36,7 +36,7 @@ Detailed documentation for technical and business stakeholders:
 
 The project follows the **Medallion Architecture**:
 
-```mermaid
+```markdown
 graph LR
     A[Raw Data (CSV/Excel)] -->|Cleaning| B(Silver Layer)
     B -->|Feature Eng| C(Gold Layer - RFM)
