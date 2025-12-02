@@ -61,7 +61,7 @@ CSV       Cleaned     RFM + Clusters
 
 ## 📁 Repository Structure
 
-```
+
 
 consumer-segmentation-rfm/
 │
@@ -152,6 +152,7 @@ make notebook
 
 ## 📊 Results Included
 
+```
 ✔️ Clean customer dataset
 ✔️ RFM table (recency, frequency, monetary)
 ✔️ Clustering using K-Means / DBSCAN
@@ -159,6 +160,7 @@ make notebook
 ✔️ Behavioral profiles for each cluster
 ✔️ Documentation for business & technical audiences
 
+```
 Graphs and insights are located in:
 
 ```
