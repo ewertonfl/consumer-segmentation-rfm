@@ -1,8 +1,18 @@
-setup:
-	pip install -r requirements.txt
+# Makefile para automacao de comandos
 
-test:
-	pytest tests/
+PYTHON = python
+PIP = pip
+
+setup:
+	$(PIP) install -r requirements.txt
 
 run:
-	python src/main.py
+	$(PYTHON) -m src.pipeline
+
+test:
+	pytest tests/ -v
+
+clean:
+	rm -rf __pycache__
+	rm -rf src/__pycache__
+	rm -rf tests/__pycache__

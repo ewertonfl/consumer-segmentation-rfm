@@ -25,10 +25,10 @@ The objective is to build a **market-relevant**, **realistic**, and **fully repr
 ## 📂 Documentation
 
 Detailed documentation for technical and business stakeholders:
-*   [📄 Functional Specifications](docs/functional_specs.md) - Business context and goals.
-*   [⚙️ Technical Specifications](docs/technical_specs.md) - Architecture and implementation details.
-*   [📖 Data Dictionary](docs/data_dictionary.md) - Field definitions for Raw, Silver, and Gold layers.
-*   [✅ Delivery Report](docs/delivery_report.md) - Final project summary.
+- **Functional Specification** – `docs/functional_specs.pdf`
+- **Technical Specification** – `docs/technical_specs.pdf`
+- **Data Dictionary** – `docs/data_dictionary.pdf`
+- **Test Plan** – `docs/test_plan.pdf`
 
 ---
 
