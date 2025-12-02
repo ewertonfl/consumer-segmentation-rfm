@@ -22,8 +22,22 @@ def plot_rfm_clusters(df: pd.DataFrame, output_dir: Path):
     for metric in metrics:
         plt.figure(figsize=(10, 6))
         
+        
+        df_plot = df.copy()
+
+        if metric == 'Monetary':
+            upper = df_plot[metric].quantile(0.99)
+            df_plot[metric] = df_plot[metric].clip(upper=upper)
+
         # Boxplot ajuda a ver a mediana e os outliers de cada grupo
-        sns.boxplot(data=df, x='Cluster', y=metric, palette='viridis')
+        sns.boxplot(data=df_plot, x='Cluster', y=metric, palette='viridis', hue=None, legend=False)
+
+        # Ajuste apenas para a métrica Monetary e Frequency
+        if metric == 'Monetary':
+            plt.yscale("log")
+            
+        if metric == "Frequency":
+            plt.yscale("log")
         
         plt.title(f'Distribuicao de {metric} por Cluster')
         plt.xlabel('Cluster')
