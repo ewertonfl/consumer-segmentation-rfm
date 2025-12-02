@@ -151,4 +151,3 @@ consumer-segmentation-rfm/
 ## 🤝 Contact
 **Ewerton Florencio**  
 [LinkedIn Profile](https://www.linkedin.com/in/ewertonfl/)
-```
