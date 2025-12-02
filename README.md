@@ -1,4 +1,3 @@
-```markdown
 # Consumer Profiling & Behavioral Clustering
 **Author:** Ewerton Florencio  
 **LinkedIn:** [https://www.linkedin.com/in/ewertonfl/](https://www.linkedin.com/in/ewertonfl/)
